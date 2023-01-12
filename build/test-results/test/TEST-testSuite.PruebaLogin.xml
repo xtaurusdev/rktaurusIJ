@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.PruebaLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-11T20:07:42" hostname="DESKTOP-FEI53SP" time="2.283">
+<testsuite name="testSuite.PruebaLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-12T18:53:39" hostname="DESKTOP-FEI53SP" time="2.195">
   <properties/>
-  <testcase name="poblarTest" classname="testSuite.PruebaLogin" time="2.283"/>
+  <testcase name="poblarTest" classname="testSuite.PruebaLogin" time="2.195"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

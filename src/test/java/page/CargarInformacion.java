@@ -32,6 +32,11 @@ public class CargarInformacion {
     @FindBy(id = "imObjectForm_1_submit")
     WebElement btnEnviarDatos;
 
+    @FindBy(id = "imObjectForm_1_reset")
+    WebElement btnResetearDatos;
+
+
+
     @FindBy(id = "imObjectForm_1_7_2")
     WebElement chckbx3;
 
@@ -123,6 +128,10 @@ public class CargarInformacion {
 
     public void enviarDatosBtnClick(){
         btnEnviarDatos.click();
+    }
+
+    public void resetearDatosClick(){
+        btnResetearDatos.click();
     }
 
 }

@@ -44,14 +44,6 @@ public class PruebaLogin {
 
     }
 
-    @Test
-    public void st() throws ParseException {
-        LogearseNova logearseNova = new LogearseNova();
-        logearseNova.credencialesLogin(webDriver);
-
-
-    }
-
 
 
 
