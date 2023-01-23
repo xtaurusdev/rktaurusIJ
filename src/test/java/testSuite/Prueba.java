@@ -34,5 +34,17 @@ public class Prueba {
         busquedaAnimalesGoogle.busquedaPerro(webDriver);
     }
 
+    @Test
+    public void buscarGatoEnGoogle() {
+        BusquedaAnimalesGoogle busquedaAnimalesGoogle = new BusquedaAnimalesGoogle();
+        busquedaAnimalesGoogle.busquedaPerro(webDriver);
+    }
+    @Test
+    public void buscarCaballoEnGoogle() {
+        BusquedaAnimalesGoogle busquedaAnimalesGoogle = new BusquedaAnimalesGoogle();
+        busquedaAnimalesGoogle.busquedaPerro(webDriver);
+    }
+
+
 
 }

@@ -19,6 +19,12 @@ public class BusquedaAnimalesGoogle {
         google.clickBtnBuscar();
     }
 
+    public  void busquedaCaballo(WebDriver webDriver) {
+        google = new Google(webDriver);
+        google.ingresarBusqueda("Caballo");
+        google.clickBtnBuscar();
+    }
+
 
 
 
